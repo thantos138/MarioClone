@@ -46,7 +46,7 @@ public class Pipe001Enter : MonoBehaviour {
         anim.enabled = true;
         //anim.weight = 1.0f;
         
-        yield return new WaitForSeconds(1.99f);
+          yield return new WaitForSeconds(1.99f);
         anim.enabled = false;
         //controller.enabled = true;
         
