@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarioClone.Plugins", "MarioClone.Plugins.csproj", "{49C94A7B-742C-54AD-B01D-104B659AF361}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarioClone", "MarioClone.csproj", "{8F387FCB-21A6-E187-8E2B-CAB9A60CA8D6}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarioClone.Editor.Plugins", "MarioClone.Editor.Plugins.csproj", "{37EA047D-5E33-3F91-72DE-F2C0B7F742B1}"
 EndProject
 Global
@@ -15,6 +17,10 @@ Global
 		{49C94A7B-742C-54AD-B01D-104B659AF361}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49C94A7B-742C-54AD-B01D-104B659AF361}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49C94A7B-742C-54AD-B01D-104B659AF361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F387FCB-21A6-E187-8E2B-CAB9A60CA8D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F387FCB-21A6-E187-8E2B-CAB9A60CA8D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F387FCB-21A6-E187-8E2B-CAB9A60CA8D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F387FCB-21A6-E187-8E2B-CAB9A60CA8D6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{37EA047D-5E33-3F91-72DE-F2C0B7F742B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{37EA047D-5E33-3F91-72DE-F2C0B7F742B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37EA047D-5E33-3F91-72DE-F2C0B7F742B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
