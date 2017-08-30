@@ -9,11 +9,12 @@ public class CameraFollow : MonoBehaviour
 
 	void Update()
 	{
-		gameObject.transform.position = new Vector3(Player.position.x, staticCameraY, Player.position.z - distanceFromPlayer);
+		//gameObject.transform.position = new Vector3(Player.position.x, staticCameraY, Player.position.z - distanceFromPlayer);
 	}
 
 	void LateUpdate()
 	{
-		//GetComponent<Camera.main>().transform.position = staticCameraY;
-	} 
+        //GetComponent<Camera.main>().transform.position = staticCameraY;
+        gameObject.transform.position = new Vector3(Player.position.x + 3, staticCameraY, Player.position.z - distanceFromPlayer);
+    } 
 }
