@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class Pipe001Enter : MonoBehaviour {
 
-    public GameObject PipeEntry;
+    public GameObject pipeEntry;
     public int stoodOn;
     //CharacterController controller;
     public Animator anim;
+
+    public GameObject mainCamera;
+    public GameObject secondCamera;
+    public GameObject player;
 
 	// Use this for initialization
 	void Start ()
@@ -46,9 +50,12 @@ public class Pipe001Enter : MonoBehaviour {
         anim.enabled = true;
         //anim.weight = 1.0f;
         
-          yield return new WaitForSeconds(1.99f);
+        yield return new WaitForSeconds(1.99f);
         anim.enabled = false;
         //controller.enabled = true;
-        
+
+        secondCamera.SetActive(true);
+        mainCamera.SetActive(false);
+        player.transform.position = new Vector3(-10.0f, -23.0f, 0.5f);
     }
 }
